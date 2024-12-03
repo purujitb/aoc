@@ -1,7 +1,7 @@
 import re
 
 
-def day2(filename):
+def day1(filename):
     m1 = {}
     m2 = {}
     with open(filename) as f:
@@ -30,4 +30,4 @@ def day2(filename):
 
 
 if __name__ == "__main__":
-    print(day2("./aoc/aoc_data/distances.txt"))
+    print(day1("./aoc/aoc_data/distances.txt"))
